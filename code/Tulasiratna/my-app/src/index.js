@@ -1,14 +1,18 @@
-import React from 'react'; // library name react
-import ReactDOM from 'react-dom'; // library name react-dom
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 const App = () => {
-  return(
-    <div>My First React App!!!!!!!</div>
+  return (
+    <div>
+      <label for="name" class="label">Enter e-mail</label>
+      <input id="name" type="text"></input>
+      <button style={{backgroundColor:'red', color:'white'}}>Submit</button>
+    </div>
   )
 }
 
 ReactDOM.render(
   <App />,
-  document.querySelector('#root')
+  document.getElementById('root')
 
 )
