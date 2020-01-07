@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import picture from './image/pic-2.jpg'
 
 
 
@@ -11,7 +12,7 @@ const App = () => {
       <div className='ui-comments'>
         <div className='comment'>
           <a href=" /" className='avatar'>
-            <img alt="Profile picture" />
+            <img src={picture} alt="Profile picture" />
           </a>
 
           <div className='content'>
