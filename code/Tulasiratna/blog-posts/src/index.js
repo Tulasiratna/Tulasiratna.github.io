@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import picture from './image/pic-2.jpg'
+import picture from './images/Divith.jpg';
+import SingleComment from './SingleComment';
 
 
 
@@ -10,26 +11,9 @@ import picture from './image/pic-2.jpg'
 const App = () => {
   return(
       <div className='ui-comments'>
-        <div className='comment'>
-          <a href=" /" className='avatar'>
-            <img src={picture} alt="Profile picture" />
-          </a>
-
-          <div className='content'>
-            <a href=" /" className='author'>
-            Tulasi
-            </a>
-
-            <div className='metadata'>
-              <span className='date'>
-                Today at 9:00 PM
-              </span>
-            </div>
-            <div className='text'>
-              It's amazing!!!!!
-            </div>
-          </div>
-        </div>
+        <SingleComment />
+        <SingleComment />
+        <SingleComment />
 
       </div>
     )
