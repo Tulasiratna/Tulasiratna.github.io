@@ -1,26 +1,25 @@
 import React from 'react';
-import picture from './images/andreas.png';
+
 
 const SingleComment = (props) => {
   console.log(props)
   return (
-      <div className='comment'>
+        <div className='comment'>
           <a href=" /" className='avatar'>
-            <img src={props.picture} alt="Profile picture" />
+            <img src={props.picture} alt="Profile" />
           </a>
 
           <div className='content'>
             <a href=" /" className='author'>
-            { props.name }
+           { props.name }
             </a>
-
             <div className='metadata'>
               <span className='date'>
               { props.date }
               </span>
             </div>
             <div className='text'>
-              { props.text }
+            { props.text }
             </div>
           </div>
         </div>
