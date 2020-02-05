@@ -3,10 +3,8 @@ import Searchinput from './Searchinput';
 
 const App = () => {
   return (
-    <div>
-      <form action="">
-        <input type="text" />
-      </form>
+    <div className="ui container" style={{marginTop: '30px'}}>
+      <Searchinput />
     </div>
   )
 }
