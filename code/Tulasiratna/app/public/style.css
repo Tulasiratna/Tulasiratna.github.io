@@ -1,0 +1,13 @@
+.heading {
+  text-align: center;
+  color: red;
+}
+
+.photo {
+  text-align: center;
+}
+
+.photo-img {
+  width: 100px;
+  height: 100px;
+}
