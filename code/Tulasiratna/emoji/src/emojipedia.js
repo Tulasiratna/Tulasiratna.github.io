@@ -20,6 +20,24 @@ const emojipedia = [
     name: "Rolling On The Floor, Laughing",
     meaning:
       "This is funny! A smiley face, rolling on the floor, laughing. The face is laughing boundlessly. The emoji version of “rofl“. Stands for „rolling on the floor, laughing“."
+  },
+  {
+    id: 4,
+    emoji: "🐭",
+    name: "Mouse face",
+    description: "Mice are considered small and cute but also shy and helpless. An unremarkable, shy and modest person is referred to as a mousy person."
+  },
+  {
+    id: 5,
+    emoji: "🥰",
+    name: "Smiling face with smiling eyes and three hearts",
+    description: "Smiley sends you a loving kiss that comes from the heart. Amicable, to express affection or with romantic intent, as an expression of love. May weaken a sarcastic response or be a reaction to a rude message. Symbol for flirting and showing gratitude."
+  },
+  {
+    id: 6,
+    emoji: "🧘",
+    name: "Person in the lotus position",
+    description: "Similar to the cross-legged seat, but in the lotus position the feet are lying on the thighs. Classical sitting posture of the yogi and sitting position in meditation. Represents inner balance, even temper, flexibility, calmness and strength."
   }
 ];
 
